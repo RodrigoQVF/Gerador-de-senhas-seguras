@@ -17,7 +17,7 @@ public class GeradorSenha {
     }
 
     /**
-     * @param args
+     * @Author: Rodrigo Queiroz Vieira Freire
      */
     public static void main(String[] args) {
         int tamanho = 15;
