@@ -44,3 +44,27 @@ public class GeradorSenha {
         }
     }
 }
+/*
+Classe geraSenha tipo String
+rand - Instância um novo objeto da classe Random
+str - Instância um novo objeto da classe StringBuilder
+String CHAR - Armazena todos os caracteres que podem ser possível da senha gerada
+Int TamPass - Faz a randomização de acordo com os caracteres encontráveis na variável CHAR
+str.append - Adiciona o caractere do TamPass na String
+Str.toString() - Retorna a String da senha completa
+
+Classe Main
+int tamanho - Tamanho da senha
+String senha - Recebe o retorno da classe geraSenha
+String filename - Armazena o nome do arquivo .txt
+file - Instância um novo objeto da classe File
+
+Bloco try - catch
+writer - Instância um nobo objeto da classe FileWriter
+Se o arquivo Senhas.txt não existir
+Crie um arquivo de texto Senhas.txt
+Escreva a variável senha no arquivo de texto
+Senao 
+writer - Instância um nobo objeto da classe FileWriter
+Escreva a variável senha no arquivo de texto existente
+    */
